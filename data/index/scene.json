@@ -1,0 +1,62 @@
+{
+  "type": "scene",
+  "properties": {
+    "height": 67.96823295830576,
+    "width": 100.0,
+    "baseExtent": [
+      805669.9103343089,
+      4732517.3245691545,
+      825616.2343203044,
+      4746074.488522574
+    ],
+    "crs": "EPSG:32632",
+    "proj": "+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs",
+    "rotation": 0,
+    "wgs84Center": {
+      "lat": 42.741246626061866,
+      "lon": 12.856148631510111
+    },
+    "zExaggeration": 1.0,
+    "zShift": 0.0
+  },
+  "layers": [
+    {
+      "type": "layer",
+      "id": 0,
+      "properties": {
+        "name": "w47080_s10",
+        "queryable": 1,
+        "visible": true,
+        "type": "dem",
+        "shading": true
+      },
+      "data": [
+        {
+          "type": "block",
+          "layer": 0,
+          "block": 0,
+          "grid": {
+            "width": 243,
+            "height": 165,
+            "url": "./data/index/L0_DEM0.bin"
+          },
+          "width": 100.0,
+          "height": 67.96823295830576,
+          "translate": [
+            0.0,
+            0.0,
+            0
+          ],
+          "material": {
+            "type": 0,
+            "image": {
+              "url": "./data/index/L0_IMG0.png"
+            },
+            "ds": 1
+          },
+          "sides": true
+        }
+      ]
+    }
+  ]
+}
